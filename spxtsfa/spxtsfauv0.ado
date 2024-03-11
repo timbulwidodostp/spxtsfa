@@ -2,7 +2,7 @@
 
 capture program drop spxtsfauv0
 program define spxtsfauv0, eclass sortpreserve
-version 16
+version 18
 
 	if replay() {
 		if (`"`e(cmd)'"' != "spxtsfauv0") error 301
